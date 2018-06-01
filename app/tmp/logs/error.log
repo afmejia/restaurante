@@ -1,0 +1,166 @@
+2018-06-01 15:23:41 Error: [MissingActionException] Action MeserosController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'index',
+)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-06-01 15:23:48 Error: [MissingActionException] Action MeserosController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'index',
+)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-06-01 15:38:11 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/View/View.php(933): View->_evaluate('/var/www/restau...', Array)
+#1 /var/www/restaurante/lib/Cake/View/View.php(473): View->_render('/var/www/restau...')
+#2 /var/www/restaurante/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#5 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-06-01 15:38:13 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/View/View.php(933): View->_evaluate('/var/www/restau...', Array)
+#1 /var/www/restaurante/lib/Cake/View/View.php(473): View->_render('/var/www/restau...')
+#2 /var/www/restaurante/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#5 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-06-01 15:41:04 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/View/View.php(933): View->_evaluate('/var/www/restau...', Array)
+#1 /var/www/restaurante/lib/Cake/View/View.php(473): View->_render('/var/www/restau...')
+#2 /var/www/restaurante/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#5 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-06-01 15:45:53 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-06-01 15:47:42 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/3
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-06-01 15:51:33 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-06-01 15:59:27 Error: [NotFoundException] El mesero no existe
+Request URL: /restaurante/meseros/ver/5
+Stack Trace:
+#0 [internal function]: MeserosController->ver('5')
+#1 /var/www/restaurante/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-06-01 16:31:05 Error: [NotFoundException] Datos inválidos
+Request URL: /restaurante/meseros/ver
+Stack Trace:
+#0 [internal function]: MeserosController->ver()
+#1 /var/www/restaurante/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-06-01 16:31:40 Error: [NotFoundException] Datos inválidos
+Request URL: /restaurante/meseros/ver
+Stack Trace:
+#0 [internal function]: MeserosController->ver()
+#1 /var/www/restaurante/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-06-01 17:54:39 Error: [MissingHelperException] Helper class FomHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FomHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 /var/www/restaurante/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Fom')
+#1 /var/www/restaurante/lib/Cake/View/View.php(858): HelperCollection->__isset('Fom')
+#2 /var/www/restaurante/app/View/Meseros/editar.ctp(3): View->__get('Fom')
+#3 /var/www/restaurante/lib/Cake/View/View.php(971): include('/var/www/restau...')
+#4 /var/www/restaurante/lib/Cake/View/View.php(933): View->_evaluate('/var/www/restau...', Array)
+#5 /var/www/restaurante/lib/Cake/View/View.php(473): View->_render('/var/www/restau...')
+#6 /var/www/restaurante/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#7 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#9 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-06-01 17:59:20 Error: [MissingControllerException] Controller class MeserorsController could not be found.
+Exception Attributes: array (
+  'class' => 'MeserorsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/meserors/index/ation:index
+Stack Trace:
+#0 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-06-01 17:59:33 Error: [NotFoundException] Datos inválidos
+Request URL: /restaurante/meseros/editar/ation:index
+Stack Trace:
+#0 [internal function]: MeserosController->editar()
+#1 /var/www/restaurante/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-06-01 18:38:48 Error: [MissingControllerException] Controller class EliminarController could not be found.
+Exception Attributes: array (
+  'class' => 'EliminarController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/eliminar/13
+Stack Trace:
+#0 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-06-01 18:39:03 Error: [MethodNotAllowedException] Incorrecto
+Request URL: /restaurante/meseros/eliminar/13
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('13')
+#1 /var/www/restaurante/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/restaurante/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 /var/www/restaurante/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
